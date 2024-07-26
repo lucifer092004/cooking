@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 1rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        figure {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            font-size: 0.8rem;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delicious Recipes</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Recipe: Classic Spaghetti Carbonara</h2>
+            <figure>
+                <img src="https://www.example.com/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara">
+                <figcaption>Classic Spaghetti Carbonara</figcaption>
+            </figure>
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>200g spaghetti</li>
+                <li>100g pancetta</li>
+                <li>2 large eggs</li>
+                <li>50g Parmesan cheese</li>
+                <li>2 cloves garlic</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+            <h3>Instructions:</h3>
+            <p>1. Cook the spaghetti according to the package instructions.</p>
+            <p>2. In a pan, cook the pancetta until crispy.</p>
+            <p>3. Beat the eggs and mix with grated Parmesan cheese.</p>
+            <p>4. Combine the hot spaghetti with the pancetta and remove from heat.</p>
+            <p>5. Quickly stir in the egg mixture and cook until creamy.</p>
+            <p>6. Season with salt and pepper, and serve immediately.</p>
+        </section>
+
+        <section>
+            <h2>Cooking Tips</h2>
+            <ul>
+                <li>Always use fresh ingredients for the best flavor.</li>
+                <li>Preheat your oven or pan to ensure even cooking.</li>
+                <li>Experiment with herbs and spices to enhance your dishes.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Explore More Recipes</h2>
+            <p>For more delicious recipes and cooking tips, visit <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
